@@ -1,8 +1,10 @@
+/* Base styles - Mobile First Approach */
 .founder-s-letter-web,
 .founder-s-letter-web * {
   box-sizing: border-box;
   position: relative;
 }
+
 .founder-s-letter-web {
   background: var(--gray-gray-25, #ffffff);
   display: flex;
@@ -12,21 +14,26 @@
   justify-content: flex-start;
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
+  width: 100%;
 }
+
 .header {
-  padding: 80px;
+  padding: 20px 16px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   position: relative;
 }
+
 .updated-dynamic-navigation {
   border-radius: 48px;
-  padding: 10px 24px 10px 24px;
+  padding: 10px 24px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -35,20 +42,21 @@
   flex-shrink: 0;
   height: 52px;
   position: relative;
-  /* box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.25),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.05);
-  backdrop-filter: blur(20px); */
+  width: 100%;
+  max-width: 752px;
 }
+
 .frame-78 {
   display: flex;
   flex-direction: row;
-  gap: 389px;
+  gap: 20px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-shrink: 0;
-  width: 752px;
+  width: 100%;
   position: relative;
 }
+
 .group {
   opacity: 0.9;
   flex-shrink: 0;
@@ -57,97 +65,100 @@
   position: relative;
   overflow: visible;
 }
+
 .content {
   background: var(--gray-gray-25, #ffffff);
-  padding: 60px 360px 120px 360px;
+  padding: 30px 16px 60px 16px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   position: relative;
+  z-index: 1;
 }
+
 ._01-gradient-globe {
   flex-shrink: 0;
-  width: 500.63px;
-  height: 426.22px;
+  width: 300px;
+  height: 250px;
   position: absolute;
-  right: 45.93px;
-  top: -75px;
-  transform: translate(-238.72px, -40.8px);
+  right: 100px;
+  top: -50px;
   overflow: visible;
   z-index: 10;
+  opacity: 0.7;
 }
+
 ._02-gradient-globe {
   flex-shrink: 0;
-  width: 327.63px;
-  height: 408.21px;
-
-  transform: translate(446.75px, -566.36px);
-  overflow: visible;
+  width: 200px;
+  height: 250px;
   position: absolute;
+  left: -50px;
+  bottom: -200px;
+  overflow: visible;
   z-index: 10;
-  left: -530px;
-  bottom: -565px;
+  opacity: 0.7;
 }
+
 ._01-text-block {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 16px;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
 }
+
 .next-chapter-of-zazzy {
   color: var(--gray-gray-700, #344054);
   text-align: left;
   font-family: "Poppins-SemiBold", sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 120%;
   font-weight: 600;
   position: relative;
   align-self: stretch;
 }
+
 .we-are-thrilled-to-announce-that-zazzy-has-officially-joined-the-canadian-ags-group-marking-an-exciting-new-chapter-in-our-journey-as-a-marketing-and-creative-agency-this-strategic-partnership-brings-together-two-organizations-that-share-a-profound-commitment-to-design-thinking-innovation-and-creating-meaningful-experiences-for-our-clients-at-zazzy-we-have-always-believed-in-the-power-of-human-centered-design-and-creative-problem-solving-our-approach-has-consistently-focused-on-understanding-our-clients-deepest-needs-challenging-conventional-thinking-and-delivering-solutions-that-truly-resonate-with-their-audiences-when-we-discovered-that-canadian-ags-group-operates-from-the-same-foundational-principles-of-design-thinking-we-knew-this-was-the-beginning-of-a-powerful-collaboration-the-synergy-extends-beyond-methodology-to-culture-both-organizations-believe-in-fostering-environments-where-creativity-thrives-where-diverse-perspectives-drive-innovation-and-where-every-team-member-is-empowered-to-contribute-to-groundbreaking-solutions-as-part-of-restructuring-we-are-now-proudly-based-in-atlanta-a-thriving-metropolitan-area-that-has-become-a-cornerstone-of-innovation-and-creativity-in-the-southeast-this-move-positions-us-to-better-serve-our-existing-clients-while-opening-doors-to-new-opportunities-and-collaborations-across-diverse-markets-as-we-embark-on-this-exciting-new-chapter-we-want-to-be-transparent-about-the-changes-ahead-effective-immediately-zazzy-will-be-focusing-exclusively-on-developing-innovative-products-and-solutions-for-the-internal-portfolio-this-strategic-shift-allows-us-to-channel-our-creative-energy-into-groundbreaking-projects-that-will-benefit-the-entire-network-consequently-we-are-no-longer-accepting-new-external-projects-or-reviewing-hiring-applications-our-talented-team-will-be-dedicating-their-expertise-to-creating-exceptional-work-for-our-new-family-of-companies-where-we-can-make-the-most-significant-impact-to-our-valued-clients-partners-and-supporters-who-have-been-part-of-our-journey-thank-you-for-believing-in-zazzy-s-vision-while-our-focus-is-shifting-the-creative-spirit-and-commitment-to-excellence-you-ve-come-to-expect-from-us-will-continue-to-flourish-in-this-new-environment-the-future-is-bright-and-we-couldn-t-be-more-excited-to-write-this-next-chapter-here-s-to-the-power-of-design-thinking-the-strength-of-strategic-partnerships-and-the-endless-possibilities-that-lie-ahead {
   color: var(--gray-gray-600, #475467);
   text-align: left;
-  font-family: var(
-    --paragraph-mob-lg-reg-font-family,
-    "Poppins-Regular",
-    sans-serif
-  );
-  font-size: var(--paragraph-mob-lg-reg-font-size, 18px);
-  line-height: var(--paragraph-mob-lg-reg-line-height, 150%);
+  font-family: var(--paragraph-mob-lg-reg-font-family, "Poppins-Regular", sans-serif);
+  font-size: 16px;
+  line-height: 150%;
   font-weight: var(--paragraph-mob-lg-reg-font-weight, 400);
   position: relative;
   align-self: stretch;
 }
+
 ._10-text-block {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  margin-top: 20px;
 }
+
 .cheers {
   color: var(--gray-gray-700, #344054);
-  text-align: left;
-  font-family: var(
-    --paragraph-mob-xl-reg-font-family,
-    "Poppins-Regular",
-    sans-serif
-  );
-  font-size: var(--paragraph-mob-xl-reg-font-size, 20px);
-  line-height: var(--paragraph-mob-xl-reg-line-height, 150%);
+  text-align: center;
+  font-family: var(--paragraph-mob-xl-reg-font-family, "Poppins-Regular", sans-serif);
+  font-size: 18px;
+  line-height: 150%;
   font-weight: var(--paragraph-mob-xl-reg-font-weight, 400);
   position: relative;
 }
+
 ._11-text-block {
   display: flex;
   flex-direction: column;
@@ -158,53 +169,229 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .frame-1171278157 {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 20px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 136px;
+  width: 100%;
+  max-width: 136px;
   position: relative;
 }
+
 .image-29 {
   flex-shrink: 0;
-  width: 136px;
-  height: 56px;
+  width: 100%;
+  max-width: 136px;
+  height: auto;
   position: relative;
-  object-fit: cover;
+  object-fit: contain;
 }
+
 .frame-1171278156 {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 20px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
 }
+
 .jay-mistry-ceo-zazzy {
   color: var(--gray-gray-700, #344054);
   text-align: left;
-  font-family: var(
-    --paragraph-mob-xl-reg-font-family,
-    "Poppins-Regular",
-    sans-serif
-  );
-  font-size: var(--paragraph-mob-xl-reg-font-size, 20px);
-  line-height: var(--paragraph-mob-xl-reg-line-height, 150%);
+  font-family: var(--paragraph-mob-xl-reg-font-family, "Poppins-Regular", sans-serif);
+  font-size: 18px;
+  line-height: 150%;
   font-weight: var(--paragraph-mob-xl-reg-font-weight, 400);
   position: relative;
   flex: 1;
 }
+
 .line-24 {
   flex-shrink: 0;
   width: 110px;
   height: 0px;
-  position: absolute;
-  left: 361px;
-  top: 1737px;
+  position: relative;
+  margin: 40px auto 0;
   overflow: visible;
+  display: block;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+  .header {
+    padding: 40px 32px;
+  }
+
+  .content {
+    padding: 40px 60px 80px 60px;
+    gap: 35px;
+  }
+
+  .next-chapter-of-zazzy {
+    font-size: 26px;
+  }
+
+  .we-are-thrilled-to-announce-that-zazzy-has-officially-joined-the-canadian-ags-group-marking-an-exciting-new-chapter-in-our-journey-as-a-marketing-and-creative-agency-this-strategic-partnership-brings-together-two-organizations-that-share-a-profound-commitment-to-design-thinking-innovation-and-creating-meaningful-experiences-for-our-clients-at-zazzy-we-have-always-believed-in-the-power-of-human-centered-design-and-creative-problem-solving-our-approach-has-consistently-focused-on-understanding-our-clients-deepest-needs-challenging-conventional-thinking-and-delivering-solutions-that-truly-resonate-with-their-audiences-when-we-discovered-that-canadian-ags-group-operates-from-the-same-foundational-principles-of-design-thinking-we-knew-this-was-the-beginning-of-a-powerful-collaboration-the-synergy-extends-beyond-methodology-to-culture-both-organizations-believe-in-fostering-environments-where-creativity-thrives-where-diverse-perspectives-drive-innovation-and-where-every-team-member-is-empowered-to-contribute-to-groundbreaking-solutions-as-part-of-restructuring-we-are-now-proudly-based-in-atlanta-a-thriving-metropolitan-area-that-has-become-a-cornerstone-of-innovation-and-creativity-in-the-southeast-this-move-positions-us-to-better-serve-our-existing-clients-while-opening-doors-to-new-opportunities-and-collaborations-across-diverse-markets-as-we-embark-on-this-exciting-new-chapter-we-want-to-be-transparent-about-the-changes-ahead-effective-immediately-zazzy-will-be-focusing-exclusively-on-developing-innovative-products-and-solutions-for-the-internal-portfolio-this-strategic-shift-allows-us-to-channel-our-creative-energy-into-groundbreaking-projects-that-will-benefit-the-entire-network-consequently-we-are-no-longer-accepting-new-external-projects-or-reviewing-hiring-applications-our-talented-team-will-be-dedicating-their-expertise-to-creating-exceptional-work-for-our-new-family-of-companies-where-we-can-make-the-most-significant-impact-to-our-valued-clients-partners-and-supporters-who-have-been-part-of-our-journey-thank-you-for-believing-in-zazzy-s-vision-while-our-focus-is-shifting-the-creative-spirit-and-commitment-to-excellence-you-ve-come-to-expect-from-us-will-continue-to-flourish-in-this-new-environment-the-future-is-bright-and-we-couldn-t-be-more-excited-to-write-this-next-chapter-here-s-to-the-power-of-design-thinking-the-strength-of-strategic-partnerships-and-the-endless-possibilities-that-lie-ahead {
+    font-size: 17px;
+  }
+
+  .cheers {
+    font-size: 19px;
+  }
+
+  .jay-mistry-ceo-zazzy {
+    font-size: 19px;
+  }
+
+  ._01-gradient-globe {
+    width: 400px;
+    height: 320px;
+    right: -50px;
+    top: -60px;
+  }
+
+  ._02-gradient-globe {
+    width: 250px;
+    height: 300px;
+    left: 0px;
+    bottom: -50px;
+  }
+
+  ._10-text-block {
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  .frame-78 {
+    gap: 100px;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .header {
+    padding: 60px 80px;
+  }
+
+  .content {
+    padding: 60px 200px 100px 200px;
+    gap: 40px;
+  }
+
+  .next-chapter-of-zazzy {
+    font-size: 28px;
+  }
+
+  .we-are-thrilled-to-announce-that-zazzy-has-officially-joined-the-canadian-ags-group-marking-an-exciting-new-chapter-in-our-journey-as-a-marketing-and-creative-agency-this-strategic-partnership-brings-together-two-organizations-that-share-a-profound-commitment-to-design-thinking-innovation-and-creating-meaningful-experiences-for-our-clients-at-zazzy-we-have-always-believed-in-the-power-of-human-centered-design-and-creative-problem-solving-our-approach-has-consistently-focused-on-understanding-our-clients-deepest-needs-challenging-conventional-thinking-and-delivering-solutions-that-truly-resonate-with-their-audiences-when-we-discovered-that-canadian-ags-group-operates-from-the-same-foundational-principles-of-design-thinking-we-knew-this-was-the-beginning-of-a-powerful-collaboration-the-synergy-extends-beyond-methodology-to-culture-both-organizations-believe-in-fostering-environments-where-creativity-thrives-where-diverse-perspectives-drive-innovation-and-where-every-team-member-is-empowered-to-contribute-to-groundbreaking-solutions-as-part-of-restructuring-we-are-now-proudly-based-in-atlanta-a-thriving-metropolitan-area-that-has-become-a-cornerstone-of-innovation-and-creativity-in-the-southeast-this-move-positions-us-to-better-serve-our-existing-clients-while-opening-doors-to-new-opportunities-and-collaborations-across-diverse-markets-as-we-embark-on-this-exciting-new-chapter-we-want-to-be-transparent-about-the-changes-ahead-effective-immediately-zazzy-will-be-focusing-exclusively-on-developing-innovative-products-and-solutions-for-the-internal-portfolio-this-strategic-shift-allows-us-to-channel-our-creative-energy-into-groundbreaking-projects-that-will-benefit-the-entire-network-consequently-we-are-no-longer-accepting-new-external-projects-or-reviewing-hiring-applications-our-talented-team-will-be-dedicating-their-expertise-to-creating-exceptional-work-for-our-new-family-of-companies-where-we-can-make-the-most-significant-impact-to-our-valued-clients-partners-and-supporters-who-have-been-part-of-our-journey-thank-you-for-believing-in-zazzy-s-vision-while-our-focus-is-shifting-the-creative-spirit-and-commitment-to-excellence-you-ve-come-to-expect-from-us-will-continue-to-flourish-in-this-new-environment-the-future-is-bright-and-we-couldn-t-be-more-excited-to-write-this-next-chapter-here-s-to-the-power-of-design-thinking-the-strength-of-strategic-partnerships-and-the-endless-possibilities-that-lie-ahead {
+    font-size: 18px;
+  }
+
+  .cheers {
+    font-size: 20px;
+  }
+
+  .jay-mistry-ceo-zazzy {
+    font-size: 20px;
+  }
+
+  ._01-gradient-globe {
+    width: 500.63px;
+    height: 426.22px;
+    right: 45.93px;
+    top: -75px;
+    transform: translate(-238.72px, -40.8px);
+  }
+
+  ._02-gradient-globe {
+    width: 327.63px;
+    height: 408.21px;
+    transform: translate(446.75px, -566.36px);
+    left: -530px;
+    bottom: -565px;
+  }
+
+  ._10-text-block {
+    gap: 80px;
+    margin-top: 40px;
+  }
+
+  .frame-78 {
+    gap: 389px;
+  }
+
+  ._01-text-block {
+    gap: 4px;
+  }
+}
+
+/* Large Desktop Styles */
+@media (min-width: 1440px) {
+  .header {
+    padding: 80px;
+  }
+
+  .content {
+    padding: 60px 360px 120px 360px;
+  }
+
+  .line-24 {
+    position: absolute;
+    left: 361px;
+    top: 1737px;
+    margin: 0;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .header {
+    padding: 16px 12px;
+  }
+
+  .content {
+    padding: 20px 12px 40px 12px;
+    gap: 25px;
+  }
+
+  .next-chapter-of-zazzy {
+    font-size: 22px;
+  }
+
+  .we-are-thrilled-to-announce-that-zazzy-has-officially-joined-the-canadian-ags-group-marking-an-exciting-new-chapter-in-our-journey-as-a-marketing-and-creative-agency-this-strategic-partnership-brings-together-two-organizations-that-share-a-profound-commitment-to-design-thinking-innovation-and-creating-meaningful-experiences-for-our-clients-at-zazzy-we-have-always-believed-in-the-power-of-human-centered-design-and-creative-problem-solving-our-approach-has-consistently-focused-on-understanding-our-clients-deepest-needs-challenging-conventional-thinking-and-delivering-solutions-that-truly-resonate-with-their-audiences-when-we-discovered-that-canadian-ags-group-operates-from-the-same-foundational-principles-of-design-thinking-we-knew-this-was-the-beginning-of-a-powerful-collaboration-the-synergy-extends-beyond-methodology-to-culture-both-organizations-believe-in-fostering-environments-where-creativity-thrives-where-diverse-perspectives-drive-innovation-and-where-every-team-member-is-empowered-to-contribute-to-groundbreaking-solutions-as-part-of-restructuring-we-are-now-proudly-based-in-atlanta-a-thriving-metropolitan-area-that-has-become-a-cornerstone-of-innovation-and-creativity-in-the-southeast-this-move-positions-us-to-better-serve-our-existing-clients-while-opening-doors-to-new-opportunities-and-collaborations-across-diverse-markets-as-we-embark-on-this-exciting-new-chapter-we-want-to-be-transparent-about-the-changes-ahead-effective-immediately-zazzy-will-be-focusing-exclusively-on-developing-innovative-products-and-solutions-for-the-internal-portfolio-this-strategic-shift-allows-us-to-channel-our-creative-energy-into-groundbreaking-projects-that-will-benefit-the-entire-network-consequently-we-are-no-longer-accepting-new-external-projects-or-reviewing-hiring-applications-our-talented-team-will-be-dedicating-their-expertise-to-creating-exceptional-work-for-our-new-family-of-companies-where-we-can-make-the-most-significant-impact-to-our-valued-clients-partners-and-supporters-who-have-been-part-of-our-journey-thank-you-for-believing-in-zazzy-s-vision-while-our-focus-is-shifting-the-creative-spirit-and-commitment-to-excellence-you-ve-come-to-expect-from-us-will-continue-to-flourish-in-this-new-environment-the-future-is-bright-and-we-couldn-t-be-more-excited-to-write-this-next-chapter-here-s-to-the-power-of-design-thinking-the-strength-of-strategic-partnerships-and-the-endless-possibilities-that-lie-ahead {
+    font-size: 15px;
+  }
+
+  .cheers {
+    font-size: 17px;
+  }
+
+  .jay-mistry-ceo-zazzy {
+    font-size: 17px;
+  }
+
+  ._01-gradient-globe {
+    width: 250px;
+    height: 200px;
+    right: -120px;
+    top: -40px;
+  }
+
+  ._02-gradient-globe {
+    width: 180px;
+    height: 200px;
+    left: 0px;
+    bottom: -50px;
+  }
+
+  .group {
+    width: 70px;
+    height: 20px;
+  }
 }
