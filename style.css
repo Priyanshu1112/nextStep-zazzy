@@ -1,6 +1,7 @@
 .founder-s-letter-web,
 .founder-s-letter-web * {
   box-sizing: border-box;
+  position: relative;
 }
 .founder-s-letter-web {
   background: var(--gray-gray-25, #ffffff);
@@ -70,25 +71,25 @@
 }
 ._01-gradient-globe {
   flex-shrink: 0;
-  width: 339.63px;
+  width: 500.63px;
   height: 426.22px;
   position: absolute;
-  right: 80.93px;
-  top: -310px;
+  right: 45.93px;
+  top: -75px;
   transform: translate(-238.72px, -40.8px);
   overflow: visible;
+  z-index: 10;
 }
 ._02-gradient-globe {
   flex-shrink: 0;
   width: 327.63px;
   height: 408.21px;
-  /* position: absolute;
-  left: -446.75px;
-  top: 1729.74px; */
+
   transform: translate(446.75px, -566.36px);
   overflow: visible;
   position: absolute;
-  left: -410px;
+  z-index: 10;
+  left: -530px;
   bottom: -565px;
 }
 ._01-text-block {
