@@ -1,0 +1,209 @@
+.founder-s-letter-web,
+.founder-s-letter-web * {
+  box-sizing: border-box;
+}
+.founder-s-letter-web {
+  background: var(--gray-gray-25, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.header {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.updated-dynamic-navigation {
+  border-radius: 48px;
+  padding: 10px 24px 10px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 52px;
+  position: relative;
+  /* box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.25),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(20px); */
+}
+.frame-78 {
+  display: flex;
+  flex-direction: row;
+  gap: 389px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 752px;
+  position: relative;
+}
+.group {
+  opacity: 0.9;
+  flex-shrink: 0;
+  width: 88px;
+  height: 25.14px;
+  position: relative;
+  overflow: visible;
+}
+.content {
+  background: var(--gray-gray-25, #ffffff);
+  padding: 60px 360px 120px 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+._01-gradient-globe {
+  flex-shrink: 0;
+  width: 339.63px;
+  height: 426.22px;
+  position: absolute;
+  right: 80.93px;
+  top: -310px;
+  transform: translate(-238.72px, -40.8px);
+  overflow: visible;
+}
+._02-gradient-globe {
+  flex-shrink: 0;
+  width: 327.63px;
+  height: 408.21px;
+  /* position: absolute;
+  left: -446.75px;
+  top: 1729.74px; */
+  transform: translate(446.75px, -566.36px);
+  overflow: visible;
+  position: absolute;
+  left: -410px;
+  bottom: -565px;
+}
+._01-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.next-chapter-of-zazzy {
+  color: var(--gray-gray-700, #344054);
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 28px;
+  line-height: 120%;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.we-are-thrilled-to-announce-that-zazzy-has-officially-joined-the-canadian-ags-group-marking-an-exciting-new-chapter-in-our-journey-as-a-marketing-and-creative-agency-this-strategic-partnership-brings-together-two-organizations-that-share-a-profound-commitment-to-design-thinking-innovation-and-creating-meaningful-experiences-for-our-clients-at-zazzy-we-have-always-believed-in-the-power-of-human-centered-design-and-creative-problem-solving-our-approach-has-consistently-focused-on-understanding-our-clients-deepest-needs-challenging-conventional-thinking-and-delivering-solutions-that-truly-resonate-with-their-audiences-when-we-discovered-that-canadian-ags-group-operates-from-the-same-foundational-principles-of-design-thinking-we-knew-this-was-the-beginning-of-a-powerful-collaboration-the-synergy-extends-beyond-methodology-to-culture-both-organizations-believe-in-fostering-environments-where-creativity-thrives-where-diverse-perspectives-drive-innovation-and-where-every-team-member-is-empowered-to-contribute-to-groundbreaking-solutions-as-part-of-restructuring-we-are-now-proudly-based-in-atlanta-a-thriving-metropolitan-area-that-has-become-a-cornerstone-of-innovation-and-creativity-in-the-southeast-this-move-positions-us-to-better-serve-our-existing-clients-while-opening-doors-to-new-opportunities-and-collaborations-across-diverse-markets-as-we-embark-on-this-exciting-new-chapter-we-want-to-be-transparent-about-the-changes-ahead-effective-immediately-zazzy-will-be-focusing-exclusively-on-developing-innovative-products-and-solutions-for-the-internal-portfolio-this-strategic-shift-allows-us-to-channel-our-creative-energy-into-groundbreaking-projects-that-will-benefit-the-entire-network-consequently-we-are-no-longer-accepting-new-external-projects-or-reviewing-hiring-applications-our-talented-team-will-be-dedicating-their-expertise-to-creating-exceptional-work-for-our-new-family-of-companies-where-we-can-make-the-most-significant-impact-to-our-valued-clients-partners-and-supporters-who-have-been-part-of-our-journey-thank-you-for-believing-in-zazzy-s-vision-while-our-focus-is-shifting-the-creative-spirit-and-commitment-to-excellence-you-ve-come-to-expect-from-us-will-continue-to-flourish-in-this-new-environment-the-future-is-bright-and-we-couldn-t-be-more-excited-to-write-this-next-chapter-here-s-to-the-power-of-design-thinking-the-strength-of-strategic-partnerships-and-the-endless-possibilities-that-lie-ahead {
+  color: var(--gray-gray-600, #475467);
+  text-align: left;
+  font-family: var(
+    --paragraph-mob-lg-reg-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-mob-lg-reg-font-size, 18px);
+  line-height: var(--paragraph-mob-lg-reg-line-height, 150%);
+  font-weight: var(--paragraph-mob-lg-reg-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+._10-text-block {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.cheers {
+  color: var(--gray-gray-700, #344054);
+  text-align: left;
+  font-family: var(
+    --paragraph-mob-xl-reg-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-mob-xl-reg-font-size, 20px);
+  line-height: var(--paragraph-mob-xl-reg-line-height, 150%);
+  font-weight: var(--paragraph-mob-xl-reg-font-weight, 400);
+  position: relative;
+}
+._11-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171278157 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 136px;
+  position: relative;
+}
+.image-29 {
+  flex-shrink: 0;
+  width: 136px;
+  height: 56px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-1171278156 {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.jay-mistry-ceo-zazzy {
+  color: var(--gray-gray-700, #344054);
+  text-align: left;
+  font-family: var(
+    --paragraph-mob-xl-reg-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-mob-xl-reg-font-size, 20px);
+  line-height: var(--paragraph-mob-xl-reg-line-height, 150%);
+  font-weight: var(--paragraph-mob-xl-reg-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.line-24 {
+  flex-shrink: 0;
+  width: 110px;
+  height: 0px;
+  position: absolute;
+  left: 361px;
+  top: 1737px;
+  overflow: visible;
+}
